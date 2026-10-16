@@ -12,8 +12,10 @@ export class LoginPage {
     async clickLogin() {
         await this.page.locator("#login").click();
     }
-    async clickLogin1() {
+    async clickLogin2() {
         await this.page.locator("#login").click();
+    }
+     async clickLogin1() {
     }
 
 
